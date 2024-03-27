@@ -1,4 +1,18 @@
-<p>James "Jim" Moriarty era el único "criminal consultor" del mundo; un marcado contraste con su archienemigo es la igualmente inigualable ocupación de "detective consultor" de Sherlock Holmes.
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="text-center">Jim Moriarty</h1>                  
+                <h2 class="text-center"><em>Lord del crimen</em></h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://i.pinimg.com/564x/49/9b/b5/499bb5946ca2810c2ff72d79aa61f718.jpg" alt="Moriarty_image">
+                            <div class="caption text-center">Jim Moriarty después de irrumpir en la sala de las joyas de la corona.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">             
+ <p>James "Jim" Moriarty era el único "criminal consultor" del mundo; un marcado contraste con su archienemigo es la igualmente inigualable ocupación de "detective consultor" de Sherlock Holmes.
                          </p>
                          <p>Al igual que Sherlock Holmes, Moriarty era muy inteligente, un maestro manipulador, lo que hacía aún más difícil para Sherlock predecir su próximo movimiento. Otros rasgos de personalidad son la maquiavelismo, la astucia y el mal genio.
                          </p>
@@ -6,3 +20,9 @@
                          </p>
                          <p>Es extremadamente arrogante. Moriarty se consideraba el oponente perfecto de Holmes dadas sus inteligentes estrategias y su genio intelectual. A menudo, mostraba una falta de conexión social, así como una psicopatía y narcisismo extremos. Otro elemento básico de Moriarty es la crueldad, dejando sarcasmo, ironía y un sentido del humor sádico en cada aparición, teniendo la costumbre de intimidar o molestar a sus rivales.
                          </p>
+                    </div>
+                </div>
+
+                     <blockquote><p>  "Todo cuento de hadas necesita un buen villano a la antigua. Me necesitas, o no eres nada."</p>
+                     <footer><cite>Jim Moriarty a Sherlock (S2E3)</cite></footer>
+                    </blockquote>                         

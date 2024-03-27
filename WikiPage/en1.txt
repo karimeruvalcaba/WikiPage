@@ -1,3 +1,17 @@
+<div class="container">
+    <div class="jumbotron">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="text-center">Jim Moriarty</h1>                  
+                <h2 class="text-center"><em>Lord of Crime</em></h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="thumbnail">
+                            <img src="https://i.pinimg.com/564x/49/9b/b5/499bb5946ca2810c2ff72d79aa61f718.jpg" alt="Moriarty_image">
+                            <div class="caption text-center">Jim Moriarty after breaking into the crown jewels room.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">             
                         <p>James "Jim" Moriarty was the world's only "consulting criminal"; a stark contrast to his arch nemesis is Sherlock Holmes' similarly 
                             unrivaled "consulting detective" occupation.
                         </p>
@@ -15,3 +29,9 @@
                             psychopathy and narcissism. Another Moriarty staple is ruthlessness, leaving sarcasm, irony, and a sadistic 
                             sense of humor in every appearance, having a habit of intimidating or picking on his rivals.
                         </p>
+                    </div>
+                </div>
+
+                     <blockquote><p>  " Every fairytale needs a good old-fashioned villian. You need me, or you're nothing."</p>
+                     <footer><cite>Jim Moriarty to Sherlock (S2E3.)</cite></footer>
+                    </blockquote>

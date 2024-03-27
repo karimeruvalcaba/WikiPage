@@ -6,10 +6,12 @@ img{
 }
 
 .jumbotron {
-    background-color: #f0f1f3;
+    background-color: #d1d2d39c;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
+
 }
 
 .thumbnail {
@@ -24,6 +26,7 @@ img{
 .container {
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 h1 {
@@ -61,6 +64,9 @@ button {
     padding: 10px 20px;
     cursor: pointer;
     margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 button:hover {
