@@ -15,17 +15,24 @@
 </div>
 
 <div class="container">
-  <button id="toggleButton" onclick="toggleLanguage()">Display Timeline</button>
-  <button id="switchButton" onclick="switchLanguage()">Switch Language</button>
+  <button id="toggleButton">Display Crime Timeline</button>
+  <button id="switchButton">Switch Language</button>
 </div>
 
 <div id="timeline" style="display: none;">
   <!-- Text from english.txt or spanish.txt will be displayed here -->
 </div>
 
+<div class="container">
+  <div id="textContainer2">
+    <!-- Text from en2.txt will be displayed here -->
+  </div>
+</div>
+
 <script>
   window.onload = function() {
     fetchText('en1.txt', 'textContainer');
+    fetchText('en2.txt', 'textContainer2');
   };
 
   var currentLanguage = 'english';
@@ -50,12 +57,16 @@
     if (currentLanguage === 'english') {
       fetchText('es1.txt', 'textContainer');
       fetchText('spanish.txt', 'timeline');
-      switchButton.textContent = 'Switch to English';
+      fetchText('es2.txt', 'textContainer2');
+      switchButton.textContent = 'Cambiar al inglés';
+      toggleButton.textContent = 'Ver linea del tiempo';
       currentLanguage = 'spanish';
     } else {
       fetchText('en1.txt', 'textContainer');
       fetchText('english.txt', 'timeline');
+      fetchText('en2.txt', 'textContainer2');
       switchButton.textContent = 'Switch to Spanish';
+      toggleButton.textContent = 'Display Crime Timeline';
       currentLanguage = 'english';
     }
   }
@@ -69,6 +80,7 @@
       .catch(error => console.error('Error fetching text:', error));
   }
 </script>
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="index2.js"></script>
 </body>
 </html>
