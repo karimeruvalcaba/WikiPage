@@ -1,3 +1,4 @@
+                                <h2><em>¿Sabías que hay otras versiones de Moriarty?</em></h2>
                 <div class="row">   
                     <div class="col-md-4" id="column1">
                         <p>En esta versión, el primer nombre de Moriarty es William y el segundo es James. Es la figura central de "Moriarty the Patriot" de Ryosuke Takeuchi. En la superficie, es un matemático venerado, célebre por su erudición y destreza intelectual. Sin embargo, debajo de esta fachada erudita se esconde la personalidad clandestina de un consultor criminal, que opera en las sombras de la Inglaterra de la época victoriana.
