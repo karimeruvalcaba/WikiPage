@@ -5,8 +5,41 @@ img{
 	width:100%;
 }
 
+.William_Moriarty_image{
+    max-width: 100%; /* Ensures the image does not exceed the container width */
+    height: auto;
+
+}
+
 .jumbotron {
     background-color: #d1d2d39c;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.col-md-6 {
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.col-md-7 {
+    background-color: #93bde985;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: .5cm;
+
+}
+
+.col-md-3 {
+    background-color:  #d1d2d3d1;
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
@@ -37,6 +70,10 @@ h1 {
 
 h2 {
     color: #6c757d;
+}
+
+h3 {
+    margin-top: 100px;
 }
 
 blockquote {

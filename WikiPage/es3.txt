@@ -1,0 +1,15 @@
+                <div class="row">
+                <div class="col-md-3">
+                    <img src="https://styles.redditmedia.com/t5_9uaj4l/styles/profileIcon_9tn318j653yb1.jpeg?width=256&height=256&frame=1&auto=webp&crop=256:256,smart&s=6f23c8f6dca7c44af30c32f9490ea44b68b168fb" alt="William_Moriarty_image" class="William_Moriarty_image">
+                    <div class="caption text-center">William James Moriarty</div>
+                    </div>
+                    <div class="col-md-7">
+                    <p>William James Moriarty, la figura central de "Moriarty The Patriot" de Ryosuke Takeuchi, personifica una dualidad que define su personaje. En la superficie, es un matemático venerado, célebre por su erudición y destreza intelectual.
+                    </p>
+                    <p>Sin embargo, bajo esta fachada erudita se esconde un personaje clandestino como consultor criminal, que opera en las sombras de la Inglaterra de la época victoriana. La brillantez de Moriarty trasciende los límites convencionales mientras navega sin problemas entre estos dos mundos, aprovechando sus logros académicos para ocultar sus actividades subversivas.
+                    </p>
+                    <p>En contraste con los motivos caóticos de Jim Moriarty, William James Moriarty orquesta crímenes con un propósito claro: crear una sociedad más igualitaria. Creyendo que es necesario eliminar a los aristócratas corruptos, planifica meticulosamente sus asesinatos. Sin embargo, va más allá al revelar su verdadera naturaleza, convenciendo al público de su merecido destino. A través de estas acciones, William pretende desmantelar las estructuras opresivas y allanar el camino hacia un orden mundial más justo.
+                    </p>                    
+                </div>
+                </div>
+                </div>

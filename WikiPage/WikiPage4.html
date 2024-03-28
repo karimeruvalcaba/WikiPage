@@ -29,10 +29,16 @@
   </div>
 </div>
 
+<div class="container">
+  <div id="textContainer3">
+    <!-- Text from en2.txt will be displayed here -->
+  </div>
+</div>
 <script>
   window.onload = function() {
     fetchText('en1.txt', 'textContainer');
     fetchText('en2.txt', 'textContainer2');
+    fetchText('en3.txt', 'textContainer3');
   };
 
   var currentLanguage = 'english';
@@ -58,6 +64,7 @@
       fetchText('es1.txt', 'textContainer');
       fetchText('spanish.txt', 'timeline');
       fetchText('es2.txt', 'textContainer2');
+      fetchText('es3.txt', 'textContainer3');
       switchButton.textContent = 'Cambiar al inglés';
       toggleButton.textContent = 'Ver linea del tiempo';
       currentLanguage = 'spanish';
@@ -65,6 +72,7 @@
       fetchText('en1.txt', 'textContainer');
       fetchText('english.txt', 'timeline');
       fetchText('en2.txt', 'textContainer2');
+      fetchText('en3.txt', 'textContainer3');
       switchButton.textContent = 'Switch to Spanish';
       toggleButton.textContent = 'Display Crime Timeline';
       currentLanguage = 'english';
