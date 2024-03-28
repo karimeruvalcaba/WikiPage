@@ -6,8 +6,7 @@ img{
 }
 
 .William_Moriarty_image{
-    max-width: 100%; /* Ensures the image does not exceed the container width */
-    height: auto;
+    max-width: 100%; 
 
 }
 
@@ -28,24 +27,39 @@ img{
 
 }
 
-.col-md-7 {
-    background-color: #93bde985;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-left: .5cm;
-
-}
-
 .col-md-3 {
     background-color:  #d1d2d3d1;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; /* Adjust the value to increase or decrease space between columns */
     margin-top: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    margin-right: 10px;
 
 }
+
+.col-md-4 {
+    background-color:  #d1d2d3d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; /* Adjust the value to increase or decrease space between columns */
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+}
+.row {
+    display: flex;
+}
+
+.col-md-4 > p {
+    flex-grow: 1;
+}
+
 
 .thumbnail {
     border: none;
@@ -58,6 +72,21 @@ img{
     height: auto;
 }
 
+#parrafo-1 {
+    margin-top: 10px;
+}
+
+#column1 {
+    background-color: rgba(173, 132, 208, 0.392);
+}
+
+#column2 {
+    background-color: rgba(179, 239, 179, 0.436);
+}
+
+#column3 {
+    background-color: rgba(231, 160, 177, 0.556);
+}
 .container {
     max-width: 800px;
     margin: 0 auto;

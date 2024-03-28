@@ -1,5 +1,18 @@
-                <div class="row">
-                <div class="col-md-3">
+ <div class="container">
+                <div class="row align-items-center">
+                <div class="col-xl-4 text-center">
+                    <img src="https://i.pinimg.com/564x/fa/92/0b/fa920bd14474dfd80053d4421915b0e2.jpg">
+                    <div class="caption text-center">Louis James Moriarty</div>
+                    </div>
+
+                <div class="col-xl-4 text-center">
                     <img src="https://styles.redditmedia.com/t5_9uaj4l/styles/profileIcon_9tn318j653yb1.jpeg?width=256&height=256&frame=1&auto=webp&crop=256:256,smart&s=6f23c8f6dca7c44af30c32f9490ea44b68b168fb" alt="William_Moriarty_image" class="William_Moriarty_image">
                     <div class="caption text-center">William James Moriarty</div>
                     </div>
+
+                <div class="col-xl-4 text-center">
+                    <img src="https://i.pinimg.com/236x/ee/ce/2f/eece2f041c4c40136169bc9b0fc51a69.jpg" alt="William_Moriarty_image" class="William_Moriarty_image">
+                    <div class="caption text-center">Albert James Moriarty</div>
+                    </div>
+        </div>
+                    

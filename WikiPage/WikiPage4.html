@@ -29,15 +29,14 @@
   </div>
 </div>
 
-<div class="container">
-  <button id="GETButton">Click to know</button>
-  <p id="parrafo-1"></p>
-  <div id="textContainer3">
-    <div class="col-md-3">    
-    <!-- Text from en2.txt will be displayed here -->
-  </div>
-</div>
 
+<div class="container">
+  <div id="textContainer3">
+          <!-- Text from en2.txt will be displayed here -->
+  </div>
+    <button id="GETButton">Click here to know them!</button>
+    <p id="parrafo-1"></p>
+  </div>
 
 <script>
   window.onload = function() {
@@ -55,12 +54,18 @@
     if (timelineContainer.style.display === 'none') {
       fetchText(currentLanguage + '.txt', 'timeline');
       timelineContainer.style.display = 'block';
-      toggleButton.textContent = 'Hide Timeline';
-    } else {
+      if (currentLanguage === 'english'){
+        toggleButton.textContent = 'Hide Timeline';
+      }if (currentLanguage === 'spanish'){
+        toggleButton.textContent = 'Cerrar linea del tiempo';
+      }
+    }
+    else {
       timelineContainer.style.display = 'none';
       toggleButton.textContent = 'Display Timeline';
     }
   }
+  
 
   function switchLanguage() {
     var switchButton = document.getElementById("switchButton");
@@ -72,6 +77,7 @@
       fetchText('es3.txt', 'textContainer3');
       switchButton.textContent = 'Cambiar al inglés';
       toggleButton.textContent = 'Ver linea del tiempo';
+      GETButton.textContent = '¡Haz click aqui para conocerlos!';
       currentLanguage = 'spanish';
     } else {
       fetchText('en1.txt', 'textContainer');
@@ -80,6 +86,7 @@
       fetchText('en3.txt', 'textContainer3');
       switchButton.textContent = 'Switch to Spanish';
       toggleButton.textContent = 'Display Crime Timeline';
+      GETButton.textContent = 'Click here to know them!';
       currentLanguage = 'english';
     }
   }

@@ -1,11 +1,14 @@
+                <div class="row">   
+                    <div class="col-md-4" id="column1">
+                        <p>In this version, Moriarty's first name is William, second is James. He is the central figure in "Moriarty the Patriot" by Ryosuke Takeuchi. On the surface, he is a revered mathematician, celebrated for his erudition and intellectual prowess. However, beneath this scholarly façade lies a clandestine persona of a criminal consultant, operating in the shadows of Victorian-era England.
+                        </p>
                     </div>
-                    <div class="col-md-7">
-                    <p>William James Moriarty, the central figure in "Moriarty The Patriot" by Ryosuke Takeuchi, epitomizes a duality that defines his character. On the surface, he is a revered mathematician, celebrated for his erudition and intellectual prowess. 
-                    </p>
-                    <p>However, beneath this scholarly façade lies a clandestine persona as a criminal consultant, operating in the shadows of Victorian-era England. Moriarty's brilliance transcends conventional boundaries as he seamlessly navigates between these two worlds, leveraging his academic achievements to conceal his subversive activities.
-                    </p>
-                    <p>In contrast to Jim Moriarty's chaotic motives, William James Moriarty orchestrates crimes with a clear purpose: to create a more equal society. Believing that eliminating corrupt aristocrats is necessary, he meticulously plans their assassinations. However, he goes further by revealing their true nature, convincing the public of their deserving fate. Through these actions, William aims to dismantle oppressive structures and pave the way for a fairer world order.
-                    </p>                    
-                </div>
-                </div>
+                    <div class="col-md-3" id="column2">
+                        <p>Moriarty's brilliance transcends conventional boundaries as he seamlessly navigates between these two worlds, leveraging his academic achievements to conceal his subversive activities. His closest allies are his two brothers, Louis James Moriarty and Albert James Moriarty. The trio shares the same objective, to create a more equal society.
+                        </p>
+                    </div>
+                    <div class="col-md-4" id="column3">
+                        <p>In contrast to Jim Moriarty's chaotic motives, William James Moriarty orchestrates crimes with a clear purpose. He believes that eliminating corrupt aristocrats is necessary, he meticulously plans their assassinations. However, he goes further by revealing their true nature, convincing the public of their deserving fate. Through these actions, William aims to dismantle oppressive structures and pave the way for a fairer world order.
+                        </p>
+                    </div>
                 </div>
