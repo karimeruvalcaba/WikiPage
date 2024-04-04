@@ -1,6 +1,19 @@
                      </blockquote>
                      <h3><a href="https://sherlockholmes.fandom.com/es/wiki/Jim_Moriarty">Para saber más de la vida de Moriarty...</a></h3>
-
+    <h2>Selecciona tu personaje favorito:</h2>
+        <div class="col-md-11">
+            <div class="col-md-10">
+                        <p>Fuego o Hielo. Bueno o malo. A algunas personas les gusta la emoción, a otras les gusta la calma. Haz tu elección. ¿Te gustan los personajes agradables o los malos?
+                        </p>                
+            </div>    <form id="characterForm">
+        <label>
+            <input type="radio" name="favorite_character" value="Sherlock">
+            Sherlock
+        </label><br>
+        <label>
+            <input type="radio" name="favorite_character" value="Moriarty">
+            Moriarty
+        </label><br>
                 </div>
                 </body>
                 </html>

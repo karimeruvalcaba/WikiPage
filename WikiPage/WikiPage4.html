@@ -67,7 +67,11 @@
     }
     else {
       timelineContainer.style.display = 'none';
-      toggleButton.textContent = 'Display Timeline';
+      if (currentLanguage === 'english'){
+        toggleButton.textContent = 'Display Timeline';
+      }if (currentLanguage === 'spanish'){
+        toggleButton.textContent = 'Mostrar linea del tiempo';
+      }
     }
   }
   
@@ -83,6 +87,7 @@
       switchButton.textContent = 'Cambiar al inglés';
       toggleButton.textContent = 'Ver linea del tiempo';
       GETButton.textContent = '¡Haz click aqui para conocerlos!';
+      POSTButton.textContent = '¡Submit!';
       currentLanguage = 'spanish';
     } else {
       fetchText('en1.txt', 'textContainer');
@@ -106,6 +111,7 @@
   }
 </script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="index1.js"></script>
 <script src="index2.js"></script>
 </body>
 </html>

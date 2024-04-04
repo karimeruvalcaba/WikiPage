@@ -1,15 +1,21 @@
                      </blockquote>
                      <h3><a href="https://bakerstreet.fandom.com/wiki/Jim_Moriarty">If you want to know more of the life of Moriarty</a></h3>
     <h2>Select Your Favorite Character:</h2>
-    <form id="characterForm">
-        <label>
-            <input type="radio" name="favorite_character" value="Sherlock">
-            Sherlock
-        </label><br>
-        <label>
-            <input type="radio" name="favorite_character" value="Moriarty">
-            Moriarty
-        </label><br>
-                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <div class="col-md-11">
+            <div class="col-md-10">
+                        <p>Fire or Ice. Nice or Bad. Some people like the thrill others like the calm. Make your choice. Are you into nice characters or baddies?
+                        </p>                
+            </div>
+        <form id="characterForm">
+            <label>
+                <input type="radio" name="favorite_character" value="Sherlock">
+                Sherlock
+            </label><br>
+            <label>
+                <input type="radio" name="favorite_character" value="Moriarty">
+                Moriarty
+            </label><br>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                </div>
                 </body>
                 </html>

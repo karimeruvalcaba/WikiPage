@@ -27,6 +27,7 @@ img{
 
 }
 
+
 .col-md-3 {
     background-color:  #d1d2d3d1;
     display: flex;
@@ -42,6 +43,19 @@ img{
 
 .col-md-4 {
     background-color:  #d1d2d3d1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px; /* Adjust the value to increase or decrease space between columns */
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+
+}
+
+.col-md-10 {
+    background-color:  #d1a625d1;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
